@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(meme.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.topic{
+  max-width: 505px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(147, 13, 13);
+  margin: 0px 0px 10px 0px;
+}
+
+h2{
+  margin-bottom: 0;
+  font-weight: 100;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(235, 231, 231);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 20px 10px 20px;
+}
+
+label {
+  flex: 1;
+  margin-right: 10px;
+  text-align: right;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"]
+{
+  flex: 3;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+input[name="code"]
+{
+  margin-right: 5px;
+  max-width: 218px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+}
+
+img{
+  border-color: #007bff;
+  border-width: thin;
+  border-style: solid;
+}
+
+.button{
+  margin: 10px 20px 0px 20px;
+  text-align: right;
+  border-radius: 20px;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form action="index2.html" method="get" novalidate>
+    <h1>Форма зворотнього зв'язку</h1>
+    <div class="form-group">
+      <label for="fullname">Назва компанії/ваше ім'я:</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Введіть своє ім'я/назву компанії">
+    </div>
+
+    <div class="form-group">
+      <label for="phone">телефон:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Введіть свій номер телефону">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Введіть свою поштову скриньку">
+    </div>
+    
+    <hr>
+
+    <p>Оберіть букву і напишіть її нижче</p>
+
+    <div class="form-group">
+      <label for="reason">тип листування:</label>
+      <select id="reason" name="reason">
+        <option value="official" selected>офіційне листування</option>
+        <option value="halfofficial">напів офіційне</option>
+        <option value="nonofficial" disabled>не офіційне</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Повідомлення:</label>
+      <textarea id="message" name="message" rows="4" cols="50" maxlength="500"></textarea>
+    </div>
+
+    <hr>
+
+    <p>Вирішшіть рівняння і натисніть відправити"</p>
+    <div class="form-group">
+      <label for="equation">5 + 6 =</label>
+      <input type="number" id="equation" name="equation" placeholder="Оберіть рішення">
+    </div>
+    <button type="submit" id="send">Відправити</button>
+    <button type="button" id="clear" class="clear">Очистити</button>
+  </form>
+</body>
+</html>

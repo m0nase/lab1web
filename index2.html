@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="topic">
+      <h2>Форма реєстрації</h2>
+    </div>
+    <form action="index3.html" method="get" novalidate>
+      <p>Тут відображається помилка</p>
+      <div class="form-group">
+        <label for="login">логін:</label>
+        <input type="text" id="login" name="login" placeholder="Введіть свій логін">
+      </div>
+
+      <hr>
+  
+      <div class="form-group">
+        <label for="password">пароль:</label>
+        <input type="password" id="password" name="password" placeholder="Введіть свій пароль">
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+        <label for="repassword">повторення пароля:</label>
+        <input type="password" id="repassword" name="repassword" placeholder="Повторіть пароль будь ласка">
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Введіть свою поштову скриньку">
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+        <label for="name">Повне ім'я:</label>
+        <input type="text" id="name" name="name" placeholder="Введіть своє повне ім'я">
+      </div>
+      
+      <hr>
+  
+      <div class="form-group">
+        <label for="code">код:</label>
+        <input type="text" id="code" name="code" placeholder="Введіть код, який зображений на малюнку">
+        <img src="captcha.png" alt="captcha" width="100" height="40">
+      </div>
+  
+      <hr>
+      <div class="button">
+        <button type="submit" id="send">Зареєструватись</button>
+      </div>
+      
+      
+    </form>
+</div>
+</body>
+</html>
+
+
